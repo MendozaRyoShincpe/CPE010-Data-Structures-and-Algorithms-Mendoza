@@ -18,8 +18,8 @@ Welcome to my **Data Structures and Algorithms** repository. This repository con
 📦 Data-Structures-and-Algorithms
 ├── 📂 Laboratory Activities
 ├── 📂 Projects
-├── 📄 README.md
-└── 📄 .gitignore
+└── 📄 README.md
+ 
 ```
 
 ### 🧪 Laboratory Activities
