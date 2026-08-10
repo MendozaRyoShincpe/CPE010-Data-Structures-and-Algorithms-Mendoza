@@ -37,9 +37,7 @@ Contains course projects and larger implementations developed throughout the cou
 | ---------------------- | ----------------------------------------- |
 | **C++**                | Primary programming language              |
 | **Visual Studio Code** | Code editor and development environment   |
-| **Git**                | Version control                           |
 | **GitHub**             | Repository hosting and project management |
-| **Git Bash / CMD**     | Git commands and repository management    |
 
 ---
 
