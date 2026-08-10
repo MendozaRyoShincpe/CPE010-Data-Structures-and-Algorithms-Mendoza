@@ -30,13 +30,6 @@ Contains laboratory exercises, programming tasks, and course activities.
 
 Contains course projects and larger implementations of data structures and algorithms.
 
-### 💻 Practice Problems
-
-Contains coding exercises, algorithm challenges, and problem-solving activities.
-
-### 📚 Source Codes
-
-Contains implementations of various data structures and algorithms.
 
 ---
 
