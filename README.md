@@ -6,8 +6,8 @@ Welcome to my **Data Structures and Algorithms** repository. This repository con
 
 ## 👨‍🎓 Student Information
 
-* **Name:** RYO SHIN MENDOZA
-* **Course:** Computer Engineering
+* **Name:** Ryo Shin Mendoza
+* **Program:** Computer Engineering
 * **Repository:** Data Structures and Algorithms
 
 ---
