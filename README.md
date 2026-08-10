@@ -7,8 +7,8 @@ Welcome to my **Data Structures and Algorithms** repository. This repository con
 ## 👨‍🎓 Student Information
 
 * **Name:** Ryo Shin Mendoza
-* **Program:** Computer Engineering
-* **Repository:** Data Structures and Algorithms
+* **Program/Section:** Computer Engineering - CPE21S1
+* **Course Code/Course:** CPE010 - Data Structures and Algorithms
 
 ---
 
