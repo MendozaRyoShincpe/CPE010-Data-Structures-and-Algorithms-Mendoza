@@ -18,8 +18,6 @@ Welcome to my **Data Structures and Algorithms** repository. This repository con
 📦 Data-Structures-and-Algorithms
 ├── 📂 Laboratory Activities
 ├── 📂 Projects
-├── 📂 Practice Problems
-├── 📂 Source Codes
 ├── 📄 README.md
 └── 📄 .gitignore
 ```
@@ -83,10 +81,10 @@ This repository serves as a collection of my learning journey in Data Structures
 
 ## 📈 Progress Tracker
 
-* [ ] Arrays
-* [ ] Linked Lists
-* [ ] Stacks
-* [ ] Queues
+* [✓] Arrays
+* [✓] Linked Lists
+* [✓] Stacks
+* [✓] Queues
 * [ ] Trees
 * [ ] Heaps
 * [ ] Hash Tables
