@@ -1,4 +1,4 @@
-# CPE010 - Data Structures and Algorithms
+# 🌳 CPE010 - Data Structures and Algorithms
 
 Welcome to my **Data Structures and Algorithms** repository! This repository contains my source codes, laboratory activities, exercises, and projects developed while studying fundamental and advanced data structures, algorithm design, and problem-solving techniques.
 
