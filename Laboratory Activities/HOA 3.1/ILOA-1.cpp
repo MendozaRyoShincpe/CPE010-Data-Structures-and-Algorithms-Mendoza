@@ -17,7 +17,7 @@ int main()
     Node *fifth = NULL;
     Node *last = NULL;
 
-    // step 2: 
+    // step 2: Assigning the node to variables
     head = new Node;
     second = new Node;
     third = new Node;
