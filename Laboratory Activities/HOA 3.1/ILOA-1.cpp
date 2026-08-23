@@ -26,7 +26,7 @@ int main()
     last = new Node;
 
 
-    // step 2
+    // step 3: putting the data to a node
     head->data = 'C';
     head->next = second;
 
