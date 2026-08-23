@@ -4,7 +4,7 @@
 #include <iostream>
 using namespace std;
 
-class Node {
+class Node { /// Defining each element in the list 
 public:
     char data;
     Node* next;
@@ -12,7 +12,7 @@ public:
 
 
 // Traverse the list
-void traverse(Node* head) {
+void traverse(Node* head) { // starts at the end to tail
     Node* current = head;
 
     while (current != nullptr) {
