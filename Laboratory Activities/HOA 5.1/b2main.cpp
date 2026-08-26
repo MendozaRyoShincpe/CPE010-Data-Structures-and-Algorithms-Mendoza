@@ -90,3 +90,64 @@ int main()
 
     return 0;
 }
+
+#include <iostream>
+#include <string>
+
+#include "Stackarray.h"
+#include "QueueLL.h"
+
+// Check if sequence is symmetric
+bool checkSymmetric(std::string sequence)
+{
+    // Reset stack
+    top = -1;
+
+    // Queue pointers
+    qNode<char>* front = nullptr;
+    qNode<char>* back = nullptr;
+
+    // Store every value in Stack and Queue
+    for (int i = 0; i < sequence.length(); i++)
+    {
+        push(sequence[i]);
+        enqueue(&front, &back, sequence[i]);
+    }
+
+    // Compare Stack and Queue
+    for (int i = 0; i < sequence.length(); i++)
+    {
+        char stackValue = pop();
+        char queueValue = dequeue(&front, &back);
+
+        if (stackValue != queueValue)
+        {
+            return false;
+        }
+    }
+
+    return true;
+}
+
+int main()
+{
+    std::string sequence;
+
+    std::cout << "===============================" << std::endl;
+    std::cout << "      Symmetric Checker" << std::endl;
+    std::cout << "===============================" << std::endl;
+
+    std::cout << "Enter sequence: ";
+    std::getline(std::cin, sequence);
+
+    if (checkSymmetric(sequence))
+    {
+        std::cout << "\nSequence is SYMMETRIC." << std::endl;
+    }
+    else
+    {
+        std::cout << "\nSequence is NOT SYMMETRIC." << std::endl;
+    }
+
+    return 0;
+}
