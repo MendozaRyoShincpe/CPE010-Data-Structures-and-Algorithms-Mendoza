@@ -32,3 +32,59 @@ int main()
 
     return 0;
 }
+
+#include <iostream>
+#include <string>
+
+#include "Stackarray.h"
+#include "QueueLL.h"
+
+// Check if sequence is symmetric
+bool checkSymmetric(std::string sequence)
+{
+    top = -1;
+
+    qNode<char>* front = nullptr;
+    qNode<char>* back = nullptr;
+
+    for (int i = 0; i < sequence.length(); i++)
+    {
+        push(sequence[i]);
+        enqueue(&front, &back, sequence[i]);
+    }
+
+    for (int i = 0; i < sequence.length(); i++)
+    {
+        char stackValue = pop();
+        char queueValue = dequeue(&front, &back);
+
+        if (stackValue != queueValue)
+        {
+            return false;
+        }
+    }
+
+    return true;
+}
+
+int main()
+{
+    std::string sequence = "12321";
+
+    std::cout << "===============================" << std::endl;
+    std::cout << "      Symmetric Checker" << std::endl;
+    std::cout << "===============================" << std::endl;
+
+    std::cout << "Sequence: " << sequence << std::endl;
+
+    if (checkSymmetric(sequence))
+    {
+        std::cout << "Sequence is SYMMETRIC." << std::endl;
+    }
+    else
+    {
+        std::cout << "Sequence is NOT SYMMETRIC." << std::endl;
+    }
+
+    return 0;
+}
