@@ -28,21 +28,9 @@ CPE010-Data-Structures-and-Algorithms/
     │   │   ├── *.h
     │   │   └── *.pdf
     │   ├── HOA 2.1/
-    │   ├── *.cpp
-    │   │   ├── *.h
-    │   │   └── *.pdf
     │   ├── HOA 3.1/
-    │   ├── *.cpp
-    │   │   ├── *.h
-    │   │   └── *.pdf
     │   ├── HOA 4.1/
-    │   ├── *.cpp
-    │   │   ├── *.h
-    │   │   └── *.pdf
     │   └── HOA 5.1/
-    │   ├── *.cpp
-    │   │   ├── *.h
-    │   └── └── *.pdf
     │
     ├── Midterm/
     │   ├── HOA 6.1/
@@ -50,17 +38,8 @@ CPE010-Data-Structures-and-Algorithms/
     │   │   ├── *.h
     │   │   └── *.pdf
     │   ├── HOA 7.1/
-    │   ├── *.cpp
-    │   │   ├── *.h
-    │   │   └── *.pdf
     │   ├── HOA 8.1/
-    │   ├── *.cpp
-    │   │   ├── *.h
-    │   │   └── *.pdf
     │   └── HOA 9.1/
-    │   ├── *.cpp
-    │   │   ├── *.h
-    │   └── └── *.pdf
     │
     └── Finals/
         ├── HOA 10.1/
@@ -68,21 +47,9 @@ CPE010-Data-Structures-and-Algorithms/
         │   ├── *.h
         │   └── *.pdf
         ├── HOA 11.1/
-        │   ├── *.cpp
-        │   ├── *.h
-        │   └── *.pdf
         ├── HOA 12.1/
-        ├── *.cpp
-        │   ├── *.h
-        │   └── *.pdf
         ├── HOA 13.1/
-        ├── *.cpp
-        │   ├── *.h
-        │   └── *.pdf
         └── HOA 14.1/
-        │   ├── *.cpp
-        │   ├── *.h
-        └── └── *.pdf
 ```
 
 **Note:** Each HOA folder follows the same structure and contains its corresponding C++ source files (`.cpp`), header files (`.h`), and PDF documentation, as applicable.
@@ -157,4 +124,3 @@ CPE010-Data-Structures-and-Algorithms/
 ⭐ **Thank you for visiting my repository!**
 
 *Learning, coding, and solving problems one algorithm at a time.*
-
