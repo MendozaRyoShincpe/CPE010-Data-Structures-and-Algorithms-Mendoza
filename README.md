@@ -1,82 +1,127 @@
-# 🌳 CPE010 - Data Structures and Algorithms
+# 💻 CPE010 – Data Structures and Algorithms
 
-Welcome to my **Data Structures and Algorithms** repository! This repository contains my source codes, laboratory activities, exercises, and projects developed while studying fundamental and advanced data structures, algorithm design, and problem-solving techniques.
+Welcome to my **CPE010 – Data Structures and Algorithms** repository! This repository contains my laboratory activities, C++ source codes, header files, and PDF documentation completed throughout the course.
+
+The activities cover fundamental C++ programming, data structures, searching and sorting algorithms, trees, graphs, algorithm strategies, and complexity analysis. The repository is organized into three academic periods: **Prelim, Midterm, and Finals**.
 
 ---
 
-## 👨‍🎓 Student Information
+## 👨‍💻 Student Information
 
-* **Name:** Ryo Shin Mendoza
-* **Program/Section:** Computer Engineering - CPE21S1
-* **Course Code/Course:** CPE010 - Data Structures and Algorithms
+- **Name:** Ryo Shin Mendoza
+- **Program/Section:** Computer Engineering – CPE21S1
+- **Course:** CPE010 – Data Structures and Algorithms
+- **School:** Technological Institute of the Philippines – Quezon City
 
 ---
 
 ## 📂 Repository Structure
 
 ```text
-📦 Data-Structures-and-Algorithms
-├── 📂 Laboratory Activities
-├── 📂 Projects
-└── 📄 README.md
+CPE010-Data-Structures-and-Algorithms/
+│
+└── Laboratory Activities/
+    │
+    ├── Prelim/
+    │   ├── HOA 1.1/
+    │   │   ├── *.cpp
+    │   │   ├── *.h
+    │   │   └── *.pdf
+    │   ├── HOA 2.1/
+    │   ├── HOA 3.1/
+    │   ├── HOA 4.1/
+    │   └── HOA 5.1/
+    │
+    ├── Midterm/
+    │   ├── HOA 6.1/
+    │   │   ├── *.cpp
+    │   │   ├── *.h
+    │   │   └── *.pdf
+    │   ├── HOA 7.1/
+    │   ├── HOA 8.1/
+    │   └── HOA 9.1/
+    │
+    └── Finals/
+        ├── HOA 10.1/
+        │   ├── *.cpp
+        │   ├── *.h
+        │   └── *.pdf
+        ├── HOA 11.1/
+        ├── HOA 12.1/
+        ├── HOA 13.1/
+        └── HOA 14.1/
 ```
 
-### 🧪 Laboratory Activities
-
-Contains laboratory exercises, programming tasks, and course activities.
-
-### 🚀 Projects
-
-Contains course projects and larger implementations developed throughout the course.
+**Note:** Each HOA folder follows the same structure and contains its corresponding C++ source files (`.cpp`), header files (`.h`), and PDF documentation, as applicable.
 
 ---
 
-## 🛠️ Tools & Technologies
+## 📚 Laboratory Activities
 
-| Tool / Technology      | Purpose                                   |
-| ---------------------- | ----------------------------------------- |
-| **C++**                | Primary programming language              |
-| **Visual Studio Code** | Code editor and development environment   |
-| **GitHub**             | Repository hosting and project management |
+### 🟢 Prelim
 
----
+| Activity | Topic | Description |
+|---|---|---|
+| **HOA 1.1** | Basic C++ Programming | Introduces the fundamentals of C++ programming, including variables, data types, input and output, operators, and basic program structure. |
+| **HOA 2.1** | Arrays, Pointers, and Dynamic Memory Allocation | Explores how to store multiple values using arrays, access memory through pointers, and allocate memory dynamically during program execution. |
+| **HOA 3.1** | Linked List | Demonstrates how to create and manage linked lists using nodes and pointers to connect and organize data dynamically. |
+| **HOA 4.1** | Stacks | Covers the stack data structure and its Last In, First Out (LIFO) principle, including operations such as push, pop, and peek. |
+| **HOA 5.1** | Queues | Introduces the queue data structure and its First In, First Out (FIFO) principle, including enqueue and dequeue operations. |
 
-## 🎯 Learning Objectives
+### 🟡 Midterm
 
-This repository serves as a collection of my learning journey in **Data Structures and Algorithms**. Through these activities and projects, I aim to:
+| Activity | Topic | Description |
+|---|---|---|
+| **HOA 6.1** | Searching Techniques | Explores searching algorithms, including linear search and binary search, to locate specific elements in a collection of data. |
+| **HOA 7.1** | Sorting Algorithms – Part 1 | Introduces sorting techniques used to arrange data in ascending or descending order and examines how different sorting methods work. |
+| **HOA 8.1** | Sorting Algorithms – Part 2 | Continues the study of sorting algorithms by implementing additional techniques and examining different approaches to organizing data. |
+| **HOA 9.1** | Tree ADT | Explores the Tree Abstract Data Type (ADT), including nodes, roots, parent-child relationships, and tree traversal techniques. |
 
-* Develop efficient problem-solving skills.
-* Understand data organization and management.
-* Analyze algorithm complexity and performance.
-* Implement data structures and algorithms using C++.
-* Apply programming concepts to solve different problems.
-* Improve code organization and debugging skills.
+### 🔵 Finals
 
----
-
-## 📈 Progress Tracker
-
-* [✓] Basic C++ Programming
-* [✓] Pointers
-* [✓] Linked Lists
-* [✓] Stacks
-* [✓] Queues
-* [ ] Trees
-* [ ] Heaps
-* [ ] Hash Tables
-* [ ] Graphs
-* [ ] Searching Algorithms
-* [ ] Sorting Algorithms
-* [ ] Dynamic Programming
+| Activity | Topic | Description |
+|---|---|---|
+| **HOA 10.1** | Graphs | Introduces graph data structures consisting of vertices and edges, including how to represent connections and relationships between elements. |
+| **HOA 11.1** | Basic Algorithm Analysis | Examines how algorithms solve problems and evaluates their performance based on execution time and resource usage. |
+| **HOA 12.1** | Algorithm Strategies | Explores different approaches to solving computational problems, including recursion, brute force, greedy algorithms, backtracking, and divide-and-conquer. |
+| **HOA 13.1** | Parallel Algorithms and Multithreading | Introduces parallel processing and multithreading, demonstrating how tasks can execute concurrently to improve program performance. |
+| **HOA 14.1** | Algorithm Complexity | Studies algorithm efficiency using asymptotic notations such as Big O, Big Omega, and Big Theta to describe how resource requirements grow as input size increases. |
 
 ---
 
-> *"First, solve the problem. Then, write the code."*
-> — Donald Knuth
+## 🛠️ Tools/Technologies
+
+- **C++** – The primary programming language used to implement data structures and algorithms.
+- **C++ Source Files (`.cpp`)** – Contain the implementation of programs and algorithm solutions.
+- **Header Files (`.h`)** – Organize declarations and reusable code for different program components.
+- **PDF Documentation (`.pdf`)** – Contains laboratory instructions, outputs, and other required activity documentation.
+- **Git** – Tracks changes and manages versions of source code.
+- **GitHub** – Stores and organizes the repository for easy access and reference.
 
 ---
 
-### 📚 My DSA Learning Journey
+## 🎯 Repository Objectives
 
-This repository documents my progress, laboratory activities, source codes, and projects throughout my study of **Data Structures and Algorithms**.
+- Develop programming skills and problem-solving abilities using C++.
+- Understand and implement fundamental data structures.
+- Apply searching and sorting algorithms to different problems.
+- Explore tree and graph structures and their operations.
+- Understand different algorithm design strategies.
+- Analyze algorithm performance and complexity.
+- Practice organizing, documenting, and managing programming projects using Git and GitHub.
+
+---
+
+## 📌 Repository Notes
+
+- Each Hands-On Activity (HOA) is organized in its corresponding folder.
+- Source code and header files are grouped according to their respective activities.
+- PDF documentation is included where applicable to support laboratory submissions.
+- The repository serves as a record of my coursework, programming exercises, and learning progress throughout CPE010.
+
+---
+
+⭐ **Thank you for visiting my repository!**
+
+*Learning, coding, and solving problems one algorithm at a time.*
 
